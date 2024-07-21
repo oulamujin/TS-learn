@@ -44,13 +44,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // obj.age(4);
 // console.log(obj.name);
 // 5.函数重载
-var user = [1, 2, 3];
+const user = [1, 2, 3];
 function findNum(ids) {
     if (typeof ids === "number") {
-        return user.filter(function (v) { return v === ids; });
+        return user.filter((v) => v === ids);
     }
     else if (Array.isArray(ids)) {
-        user.push.apply(user, ids);
+        user.push(...ids);
         return user;
     }
     else {
