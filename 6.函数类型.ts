@@ -4,7 +4,6 @@
 // 4.函数this类型
 // 5.函数重载
 
-import { log } from "console";
 
 // 1.函数定义类型和返回值 | 箭头函数定义类型和返回值
 // function add(a: number, b: number): number {
@@ -44,7 +43,7 @@ import { log } from "console";
 
 // const obj: Obj = {
 // 	name: [1, 2, 3],
-// 	age(num: number) {
+// 	age(this: Obj, num: number) {
 // 		this.name.push(num);
 // 	},
 // };

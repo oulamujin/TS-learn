@@ -4,7 +4,6 @@
 // 3.参数是一个对象如何定义
 // 4.函数this类型
 // 5.函数重载
-Object.defineProperty(exports, "__esModule", { value: true });
 // 1.函数定义类型和返回值 | 箭头函数定义类型和返回值
 // function add(a: number, b: number): number {
 // 	return a + b;
@@ -37,7 +36,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // // ts 中可以定义this 的类型，在js中无法使用  必须是第一个参数定义this的类型
 // const obj: Obj = {
 // 	name: [1, 2, 3],
-// 	age(num: number) {
+// 	age(this: Obj, num: number) {
 // 		this.name.push(num);
 // 	},
 // };

@@ -1,6 +1,5 @@
 "use strict";
 // 定义一个数组类型，有两种方法
-Object.defineProperty(exports, "__esModule", { value: true });
 // number[]
 // const arr:number[] = [1,2,3]
 // Array<number>   这种叫做泛型

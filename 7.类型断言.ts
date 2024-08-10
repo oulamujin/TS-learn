@@ -1,7 +1,7 @@
 // 联合类型
 // 符合其中一种即可
 // let phone:number = 12312312313
-//但有时候电话号会有座机号，是字符串的，就可以使用联合类型   number 或者 string都行
+// 但有时候电话号会有座机号，是字符串的，就可以使用联合类型   number 或者 string都行
 // let phone: number | string = "010-808080080";
 // const fn1 = function (type: number | boolean): boolean {
 // 	return !!type;
@@ -29,7 +29,7 @@
 // 	sex: 1,
 // });
 
-// 类型断言   <A>type   num as string 两种写法
+// 类型断言   <类型>值   值 as 类型 两种写法
 // 变量 as 某一个类型 ： 当一个变量有两种及以上类型时，如果使用到其中一个类型的特有属性，可以使用类型断言
 // 类型断言可以欺骗ts编辑器，但无法避免运行时的错误  所以不能滥用类型断言
 // const fn1 = function (num: number | string): void {

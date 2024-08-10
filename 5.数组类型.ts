@@ -1,7 +1,5 @@
 // 定义一个数组类型，有两种方法
 
-import { log } from "console"
-
 // number[]
 // const arr:number[] = [1,2,3]
 
